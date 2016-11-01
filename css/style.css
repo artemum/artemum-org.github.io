@@ -1,0 +1,74 @@
+
+body{ 
+margin: 0;
+}
+section {
+	height: 100vh;
+	background-color: #666;
+	position: relative; 
+	overflow: hidden; // необходимо для того чтобы сделать виЮ порт 
+}
+.sect_1 {
+	background-image: url(../css/img1.jpg);
+	background-size: cover;//для того чтобы картинка не дублировалась и зафиксировалась
+}
+.header_text{
+color: #fff;  // цвет текста белый  
+display: inline-block;
+font-family:'Times New Roman', Times, serif; // Стиль текста 
+font-style:italic;
+font-size: 40px;
+font-weight:bold;
+height: 40px;
+text-align: center;
+text-transform: uppercase;
+width: 240px;
+position: absolute;
+top:50%;
+left:50%;
+margin-left: -120px;
+margin-top: -20px;
+}
+.sect_2 img{
+	position: absolute;
+	width: 100%;
+top: -300px;
+}
+.tel {
+	background: url(../css/phone26.png);
+	background-size: cover;
+	color: #c0c0c0;   
+display: ;
+font-style:italic;
+font-size: 20px;
+font-weight:bold;
+height: 40px;
+text-align: right;
+text-transform: uppercase;
+width: 240px;
+position: absolute;
+top:50%;
+left:50%;
+margin-left: 420px;
+margin-top: -300px;
+}
+nav li{
+	float: right;
+	margin: 70px 100px 70px;
+	list-style: none;
+	background: url(../css/Кнопка.png);
+	width: 50px ;
+}
+.header_text2 {
+	color: #fff;  // цвет текста белый  
+font-family:'Times New Roman', Times, serif; // Стиль текста 
+text-align: center;
+font-size: 20px;
+height: 40px;
+position: absolute;
+}
+.autor{
+	color: #fff;  // цвет текста белый  
+font-family:'Times New Roman', Times, serif;
+text-align: right;
+}
